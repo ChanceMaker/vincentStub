@@ -1,29 +1,18 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <style>
-         .button {
-         border: none;
-         color: white;
-         padding: 15px 32px;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 16px;
-         margin: 4px 2px;
-         cursor: pointer;
-         }
-         .button1 {background-color: #4CAF50;} /* Green */
-         .button2 {background-color: #008CBA;} /* Blue */
-      </style>
+      <link rel="stylesheet" href="css/style.css">
+   
+   
    </head>
-   <body>
-    <p>Input something like <code>1 + 1</code>.</p>
-    <input id="input" value="1 + 1"></input>
-    <input class = "button button2" id="btn" type="button" value="Send to Python!"></input>
-    </br>
-    Got <span id="result"></span>
-
-      <script src="./renderer.js"></script>
-   </body>
+<body class="mainBody">
+   
+   <div class="mainWindow">Content for class "mainWindow" Goes Here</div>
+   <div class="userInput">
+      <input class="mainInputBox" ></input>
+      <input class="button button1" id="btn" type="button" value="Enter"></input>
+   </div>
+	
+	<script src="./renderer.js"></script>
+</body>
 </html>
