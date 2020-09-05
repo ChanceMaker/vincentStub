@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <link rel="stylesheet" href="css/style.css">
-   
-   
-   </head>
-<body class="mainBody">
-   
-   <div class="mainWindow">Content for class "mainWindow" Goes Here</div>
-   <div class="userInput">
-      <input class="mainInputBox" ></input>
-      <input class="button button1" id="btn" type="button" value="Enter"></input>
-   </div>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126893854-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-126893854-2');
+	</script>
 	
-	<script src="./renderer.js"></script>
+	<title>Audio Cloud</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/libs/dat.gui.min.js"></script>
+	<script type="text/javascript" src="js/libs/pixi.js"></script>
+	<script type="text/javascript" src="js/libs/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/libs/hammer.min.js"></script>
+</head>
+<body>
+      <h2 class="message">PLAY</h2>
+      <div class="userInput">
+         <input class="mainInputBox" ></input>
+         <input class="button button1" id="btn" type="button" value="Enter"></input>
+      </div>
+	<script src="js/main.js"></script>
 </body>
 </html>
