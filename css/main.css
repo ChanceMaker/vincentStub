@@ -7,7 +7,7 @@ html,body{
          box-sizing: border-box;
          color: white;
          padding: 15px 32px;
-         width:45%;
+         width:49%;
          
          text-align: center;
          text-decoration: none;
@@ -21,7 +21,7 @@ html,body{
 .mainInputBox{
     box-sizing: border-box; 
     padding: 15px 32px;
-    width:45%;
+    width:49%;
     height: auto;
     /* margin:5%; */
     border:2px solid blue;
@@ -37,30 +37,25 @@ html,body{
 	
 }
 .userInput{
-    align-items: center;
-	
-}
-body script {
-        }
-html, body {
-    margin:0;
-    overflow:hidden;
-    background:#000;
-    color:white;
-    font-family:Arial;
-}
-
-.message{
-    padding:20px;
+    
+    /* padding:10px; */
+    /* margin: auto; */
+    margin: auto;
     position:absolute;
-    top:50%;
+    top:90%;
     left:50%;
     transform:translate(-50%, -50%);
     background:black;
     cursor:pointer;
     font-size:14px;
-    border:1px solid white;
+    /* border:1px solid white; */
+	
 }
+body script {
+        }
+
+
+
 
 #badge{
     position: absolute;
